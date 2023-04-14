@@ -1,3 +1,4 @@
+// Exercicio 1
 let kelvin = (77 - 32) * (5/9) + 273.15;
 console.log("A temperatura em kelvin é: " + kelvin);
 
@@ -30,3 +31,25 @@ console.log("O total do boleto é: " + valorKillo + " reais");
 
 valorKillo = valorKillo * 0.85;
 console.log("O total do boleto é: " + valorKillo + " reais");
+
+// Exercicio 2
+// Solicitar o nome do usuário, 3 notas e calcular a média.
+// Informar o nome do usuário, a média e se a média for maior que 6.
+// Dar os parabéns, do contrário pedir para repetir o ano.
+
+let nome = prompt ("Digite o seu nome: ");
+let notaUm =  prompt ("Digite sua primeira nota: ");
+let notaDois =  prompt ("Digite sua segunda nota: ");
+let notaTres =  prompt ("Digite sua terceira nota: ");
+
+media = (notaUm + notaDois + notaTres) / 3;
+
+if (media >= 6 ) {
+    console.log("Parabéns " + nome + " você foi aprovado." );
+} else {
+        console.log(nome + " infelizmente você foi reprovado e terá que repetir de ano"  ); 
+    };
+
+
+
+
